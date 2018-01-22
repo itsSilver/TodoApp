@@ -33,7 +33,7 @@ taskInput.addEventListener('keyup', (e) => {
       tasksTitle.style.display = '';
       taskInput.value = '';
 
-      tasksTitle.textContent = "Inbox";
+      tasksTitle.textContent = "To Do";
       tasksSection.style.display = "";
     }
   }
@@ -60,7 +60,7 @@ lists.addEventListener('click', (event) => {
         let ul = li.parentNode;
         favsSection.style.display = '';
         favs.appendChild(li);
-        favTitle.textContent = "Favorites";
+        favTitle.textContent = "Done";
       }
 
       if ( taskItems.length === 0 ) {
@@ -77,7 +77,7 @@ lists.addEventListener('click', (event) => {
         let ul = li.parentNode;
         favsSection.style.display = '';
         favs.appendChild(li);
-        favTitle.textContent = "Favorites";
+        favTitle.textContent = "Done";
       }
 
       if ( taskItems.length === 0 ) {
@@ -97,7 +97,7 @@ lists.addEventListener('click', (event) => {
         let ul = li.parentNode;
         tasksSection.style.display = '';
         tasks.appendChild(li);
-        tasksTitle.textContent = "Inbox";
+        tasksTitle.textContent = "To Do";
       }
 
       if ( favsItems.length === 0 ) {
@@ -114,7 +114,7 @@ lists.addEventListener('click', (event) => {
         let ul = li.parentNode;
         tasksSection.style.display = '';
         tasks.appendChild(li);
-        tasksTitle.textContent = "Inbox";
+        tasksTitle.textContent = "To Do";
       }
 
       if ( favsItems.length === 0 ) {
